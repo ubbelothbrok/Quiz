@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Question</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f3f4f6; color: #111827; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); width: 100%; max-width: 400px; text-align: center; }
+        h1 { font-size: 1.5rem; margin-bottom: 2rem; font-weight: 700; }
+        .options { display: flex; gap: 1rem; justify-content: center; }
+        a.btn { flex: 1; padding: 1rem; background-color: #3b82f6; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.1rem; transition: background-color 0.2s; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+        a.btn:hover { background-color: #2563eb; transform: translateY(-1px); }
+        a.btn.no { background-color: #ef4444; }
+        a.btn.no:hover { background-color: #dc2626; }
+        .score-display { margin-top: 2rem; font-size: 0.95rem; color: #6b7280; font-weight: 500;}
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>5. Do cats bark?</h1>
+        <div class="options">
+            <a href="result_score3.html" class="btn">Yes</a>
+            <a href="result_score4.html" class="btn no">No</a>
+        </div>
+        <div class="score-display">Current Score: 3</div>
+    </div>
+</body>
+</html>
